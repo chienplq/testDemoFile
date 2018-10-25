@@ -4,7 +4,6 @@
   "displayName": "testDemoFile",
   "cordova": {
     "platforms": [
-      "browser",
       "android"
     ],
     "plugins": {
@@ -14,8 +13,7 @@
   },
   "dependencies": {
     "cordova-android": "^7.1.1",
-    "cordova-browser": "~5.0.4",
-    "cordova-plugin-file-transfer": "^1.7.1",
-    "cordova-plugin-file": "~6.0.1"
+    "cordova-plugin-file": "~6.0.1",
+    "cordova-plugin-file-transfer": "^1.7.1"
   }
 }
