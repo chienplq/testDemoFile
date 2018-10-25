@@ -6,6 +6,16 @@
         <title>Blank App</title>
     </head>
     <body>
-        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="cordova.js">
+		document.addEventListener("deviceready", onDeviceReady, false);
+	
+    function onDeviceReady() {
+	
+       
+		alert("chien");
+  
+	
+    }</script>
+	<p> test file </p>
     </body>
 </html>
